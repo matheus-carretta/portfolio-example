@@ -16,6 +16,9 @@ export default function Home() {
             Desenvolvedor web Full Stack aprendendo a colocar aplicações no ar!
           </p>
         </div>
+        <div>
+          <p>Esse site está rodando: {process.env.ENV}</p>
+        </div>
       </div>
     </main>
   );
